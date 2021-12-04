@@ -16,5 +16,5 @@ app.whenReady().then(() => {
   const { width, height } = primaryDisplay.workAreaSize
 
   mainWindow = new BrowserWindow({ width, height })
-  mainWindow.loadURL('C:/Users/Traian/Desktop/lopihack/electron-quick-start-master/glassmorphism-login-form-tutorial-in-html-css/src/index.html')
+  mainWindow.loadURL('C:/Users/Traian/Documents/GitHub/PIBlovers/cursed/src/index.html')
 })

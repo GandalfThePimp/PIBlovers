@@ -1,0 +1,13 @@
+.chenar {
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.13);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  }
+body{
+  background-color: #459e3a;
+}
