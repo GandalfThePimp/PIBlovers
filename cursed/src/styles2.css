@@ -1,0 +1,152 @@
+.chenar {
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.13);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+body{
+/* background-color: white; */
+background-size: 100% 1920%;
+background-repeat: no-repeat;
+background-position-y: 64px;
+background-color: lightgrey;
+}
+.navbar {
+list-style-type: none;
+margin: 0;
+width: 100%;
+padding: 0;
+overflow: hidden;
+background-color: #459e3a;
+display:table;
+}
+
+.navid {
+float: left;
+background-color: rgba(255, 255, 255, 0.13);
+width: 50%;
+margin-left: 37%;
+border-radius: 10px;
+}
+
+.navid a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+/* margin-left: 30vmax; */
+}
+.navbarp1 {
+display:inline-block;
+float:left;
+width: 80%;
+
+}
+.navbarp2 {
+display:inline-block;
+float:left;
+width: 20%;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.navid:hover {
+background-color: rgba(255, 255, 255, 0.23);
+}
+
+
+.navid2{
+display:inline-block;
+float: left;
+background-color: rgba(255, 255, 255, 0.13);
+width: 50%;
+margin-left: 10%;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+width : 30%
+}
+
+.navid2 a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+/* margin-left: 30vmax; */
+}
+
+.navid2:hover {
+background-color: rgba(255, 255, 255, 0.23);
+}
+.profilepic{
+width: 40px;
+height: 40px;
+margin-top: 3px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.bigasstext {
+height: 200px;
+width: 800px;
+/* background: black; */
+color: white;
+background-color: rgba(255, 255, 255, 0.18);
+position: fixed;
+top: 60%;
+left: 50%;
+margin-top: -200px;
+margin-left: -400px;
+text-align: center;
+border-radius: 10px;
+font-size: 120px;
+}
+
+.textbig{
+margin-top: 20px;
+}
+.textbog{
+margin-top: -140px;
+font-size: 40px;
+}
+
+.profilepicn{
+display:inline-block;
+
+width: 10%;
+}
+
+.case1{
+  margin-left: 22.5%;
+  padding: 60px 16px;
+  vertical-align: middle;
+}
+
+.items{
+  display: block;
+  list-style-type: none;
+  background-color:white;
+}
+.item{
+  background-color: #459e3a;
+  border-radius: 15px;
+  width: 910px;
+  height: 100px;  
+  color:  rgba(8,7,16,0.6);
+  padding: 6px 12px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+.itemdesc{
+  background-size:0px;
+  margin-left: 15px;
+  width: 895px;
+  height: 70px;
+  background-color: #63d66d; 
+  border-radius: 10px;
+}
