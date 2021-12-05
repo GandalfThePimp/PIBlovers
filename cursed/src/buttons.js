@@ -4,15 +4,18 @@ function login_button(){
         console.log(res);
         if(v == 1){
             //goto welcome_login
+            sessionStorage.setItem('user', document.getElementById('username').value);
             document.location = "welcome_login.html";
         }else{
             document.getElementById("loginbtn").remove();
         }
-    }).catch((err)=>{})
+    }).catch((err)=>{throw err})
 }
 
 function signup_button(){
     api_login(document.getElementById('username').value,document.getElementById('password').value);
+    sessionStorage.setItem('user',document.getElementById('username').value);
+    document.location = "welcome_login.html";
 }
 
 function noacc_button(){

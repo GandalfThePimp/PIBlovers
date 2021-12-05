@@ -67,3 +67,12 @@ function user_exists_async(user){
 }
 
 
+function aget(name){
+    return (async () => {
+        var a = await $.post('http://0.0.0.0:8081/get', {name: name}, 
+        function(returnedData){
+            
+        })
+        return a;
+    })();
+}
