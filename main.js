@@ -32,7 +32,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('C:/Users/Traian/Desktop/lopihack/electron-quick-start-master/glassmorphism-login-form-tutorial-in-html-css/src/index.html')
+  mainWindow.loadFile('/cursed/src/index.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

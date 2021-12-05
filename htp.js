@@ -16,5 +16,5 @@ app.whenReady().then(() => {
   const { width, height } = primaryDisplay.workAreaSize
 
   mainWindow = new BrowserWindow({ width, height })
-  mainWindow.loadURL('C:/Users/Traian/Documents/GitHub/PIBlovers/cursed/src/index.html')
+  mainWindow.loadURL('/cursed/src/index.html')
 })
