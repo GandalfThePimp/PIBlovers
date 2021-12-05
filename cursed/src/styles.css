@@ -8,9 +8,9 @@
     background: rgba(255,255,255,0.13);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
   }
-body{
+.bodymain{
   /* background-color: white; */
-  background-image: url('https://images.unsplash.com/photo-1605714726527-411541ab17f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-image: url('https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   background-size: 100% 1920%;
   background-repeat: no-repeat;
   background-position-y: 64px;
@@ -72,6 +72,7 @@ body{
   width : 30%
 }
 
+
 .navid2 a {
   display: block;
   color: white;
@@ -84,6 +85,31 @@ body{
 .navid2:hover {
   background-color: rgba(255, 255, 255, 0.23);
 }
+
+
+.navid3{
+  display:inline-block;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.13);
+  width: 50%;
+  margin-left: 10%;
+  border-radius: 10px;
+  width : 30%
+}
+
+.navid3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* margin-left: 30vmax; */
+}
+
+.navid3:hover {
+  background-color: rgba(255, 255, 255, 0.23);
+}
+
 .profilepic{
   width: 40px;
   height: 40px;
@@ -91,6 +117,8 @@ body{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+
+
 
 .bigasstext {
   height: 200px;
@@ -115,9 +143,77 @@ body{
   margin-top: -140px;
   font-size: 40px;
 }
-
+.textcart{
+  font-size:20px;
+}
 .profilepicn{
   display:inline-block;
 
   width: 10%;
+}
+html *
+{
+   font-family: Arial !important;
+}
+.profilebar {
+  list-style-type: none;
+  margin-top: 47px;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 80%;
+  overflow: hidden;
+}
+
+.pagepfpb{
+  /* width: 50px; */
+  height: 47px;
+}
+
+.pagepfpb a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagepfpb.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.pagepfpb:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.bigasstextb {
+  color: black;
+  display:inline-block;
+  font-size: 100px;
+  margin-bottom:-50px;
+  position: relative;
+  
+  /* margin-top:-20px; */
+  /* position:center; */
+} 
+
+.profilepicture{
+  border-radius: 50%;
+  object-fit: cover;
+  width:230px;
+  height:230px;
+}
+
+.profilepan {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+.bigasstextbdown{
+  font-size: 44px;
 }
