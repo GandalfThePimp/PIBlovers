@@ -9,5 +9,83 @@
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
   }
 body{
+  background-color: white;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
   background-color: #459e3a;
+  display:table;
+}
+
+.navid {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.13);
+  width: 50%;
+  margin-left: 37%;
+  border-radius: 10px;
+}
+
+.navid a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* margin-left: 30vmax; */
+}
+.navbarp1 {
+  display:inline-block;
+  float:left;
+  width: 80%;
+
+}
+.navbarp2 {
+  display:inline-block;
+  float:left;
+  width: 20%;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.navid a:hover {
+  background-color: #111;
+}
+
+
+.navid2{
+  display:inline-block;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.13);
+  width: 50%;
+  margin-left: 10%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width : 30%
+}
+
+.navid2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* margin-left: 30vmax; */
+}
+.profilepic{
+  width: 40px;
+  height: 40px;
+  margin-top: 3px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.profilepicn{
+  display:inline-block;
+
+  width: 10%;
 }
