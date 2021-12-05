@@ -57,7 +57,7 @@
             bottom: -80px;
         }
 
-        form {
+        .login {
             height: 670px;
             width: 400px;
             background-color: rgba(255, 255, 255, 0.13);
@@ -72,7 +72,7 @@
             padding: 50px 35px;
         }
 
-        form * {
+        .login * {
             font-family: 'Poppins', sans-serif;
             color: #ffffff;
             letter-spacing: 0.5px;
@@ -80,7 +80,7 @@
             border: none;
         }
 
-        form h3 {
+        .login h3 {
             font-size: 32px;
             font-weight: 500;
             line-height: 42px;
@@ -168,7 +168,7 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form action="page_1.html">
+    <div class="login">
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
@@ -177,14 +177,14 @@
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
 
-        <button class="button_first" onclick="document.location='page2.html'">Log In</button>
-        <button class="buttons" onclick="document.location='page2.html'">Sign Up</button>
-        <button class="buttons" onclick="document.location='page2.html'">Continue without an account</button>
+        <button class="button_first" onclick="login_button()" id="loginbtn">Log In</button>
+        <button class="buttons" onclick="signup_button()">Sign Up</button>
+        <button class="buttons" onclick="noacc_button()"">Continue without an account</button>
         <div class="social">
             <div class="go"><i class="fab fa-google"></i> Google</div>
             <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
         </div>
-    </form>
+    </div>
 </body>
 
 </html>
