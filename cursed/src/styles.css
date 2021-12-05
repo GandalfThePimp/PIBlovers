@@ -9,9 +9,13 @@
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
   }
 body{
-  background-color: white;
+  /* background-color: white; */
+  background-image: url('https://images.unsplash.com/photo-1605714726527-411541ab17f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background-size: 100% 1920%;
+  background-repeat: no-repeat;
+  background-position-y: 64px;
+  background-color: lightgrey;
 }
-
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -52,8 +56,8 @@ body{
 }
 
 /* Change the link color to #111 (black) on hover */
-.navid a:hover {
-  background-color: #111;
+.navid:hover {
+  background-color: rgba(255, 255, 255, 0.23);
 }
 
 
@@ -76,12 +80,40 @@ body{
   text-decoration: none;
   /* margin-left: 30vmax; */
 }
+
+.navid2:hover {
+  background-color: rgba(255, 255, 255, 0.23);
+}
 .profilepic{
   width: 40px;
   height: 40px;
   margin-top: 3px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+
+.bigasstext {
+  height: 200px;
+  width: 800px;
+  /* background: black; */
+  color: white;
+  background-color: rgba(255, 255, 255, 0.18);
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -400px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 120px;
+}
+
+.textbig{
+  margin-top: 20px;
+}
+.textbog{
+  margin-top: -140px;
+  font-size: 40px;
 }
 
 .profilepicn{
